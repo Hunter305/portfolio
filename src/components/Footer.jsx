@@ -1,8 +1,55 @@
 import React from "react";
+import { Container, Grid } from "@mui/material";
+import { GitHub, LinkedIn, Article } from "@mui/icons-material";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <div style={{ height: "50px", backgroundColor: "#ffd72e" }}>Footer</div>
+    <div
+      style={{
+        backgroundColor: "#ffd72e",
+        paddingTop: "50px",
+        paddingBottom: "20px",
+      }}
+    >
+      <Container maxWidth="sm" sx={{ textAlign: "center" }}>
+        <Grid container spacing={0}>
+          <Grid item md={4} xs={12}>
+            <a
+              href="https://github.com/Hunter305"
+              alt="github"
+              style={{ textDecoration: "none", color: "#000" }}
+            >
+              <GitHub className="footerFont" fontSize="large" />
+              <h4 style={{ margin: "0" }}>github</h4>
+            </a>
+          </Grid>
+          <Grid item md={4} xs={12}>
+            <a
+              href="https://www.linkedin.com/in/avinash-s-9b56b9178/"
+              alt="linkedin"
+              style={{ textDecoration: "none", color: "#0A66C2" }}
+            >
+              <LinkedIn className="footerFont" fontSize="large" />
+              <h4 style={{ margin: "0" }}>LinkedIn</h4>
+            </a>
+          </Grid>
+          <Grid item md={4} xs={12}>
+            <a
+              href="https://drive.google.com/file/d/1VlXThf9jgeNETEPyfw9EetpsHjz0wfih/view?usp=drive_link"
+              alt="Resume"
+              style={{ textDecoration: "none", color: "#64DAEE" }}
+            >
+              <Article className="footerFont" fontSize="large" />
+              <h4 style={{ margin: "0" }}>Resume</h4>
+            </a>
+          </Grid>
+        </Grid>
+        <p style={{ color: "grey", paddingTop: "20px" }}>
+          Avinash S &copy; {currentYear}
+        </p>
+      </Container>
+    </div>
   );
 };
 
