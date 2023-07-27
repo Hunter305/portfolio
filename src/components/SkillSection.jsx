@@ -1,6 +1,16 @@
 import styles from "../styles/SkillsSection.module.scss";
 import { FaReact, FaBootstrap } from "react-icons/fa6";
 import { TbBrandNextjs } from "react-icons/tb";
+import {
+  icon_html,
+  icon_css,
+  icon_bootstrap,
+  icon_javascript,
+  icon_material,
+  icon_next,
+  icon_react,
+  icon_redux,
+} from "../images.js";
 
 const SkillSection = () => {
   return (
@@ -18,16 +28,16 @@ const SkillSection = () => {
                 style={{ justifyContent: "space-between", padding: "0 20px" }}
               >
                 <div className={styles.item}>
-                  <img src="src/img/icon_html.svg" alt="html" />
+                  <img src={icon_html} alt="html" />
                   <h4>HTML</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_css.svg" alt="css" />
+                  <img src={icon_css} alt="css" />
                   <h4>CSS</h4>
                 </div>
                 <div className={styles.item}>
-                  <img src="src/img/icon_javascript.svg" alt="javascript" />
+                  <img src={icon_javascript} alt="javascript" />
                   <h4>JavaScript</h4>
                 </div>
               </div>
@@ -37,31 +47,28 @@ const SkillSection = () => {
                 style={{ justifyContent: "space-between", padding: "0 20px" }}
               >
                 <div className={styles.item}>
-                  <img src="src/img/icon_react.svg" alt="react" />
+                  <img src={icon_react} alt="react" />
                   <h4>React</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_redux.svg" alt="redux" />
+                  <img src={icon_redux} alt="redux" />
                   <h4>Redux</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_next.svg" alt="next" />
+                  <img src={icon_next} alt="next" />
                   <h4>NextJS</h4>
                 </div>
               </div>
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img
-                    src="src/img/icon_bootstrap.svg"
-                    alt="styledComponents"
-                  />
+                  <img src={icon_bootstrap} alt="styledComponents" />
                   <h4>Bootstrap</h4>
                 </div>
                 <div className={styles.item}>
-                  <img src="src/img/icon_material.svg" alt="styledComponents" />
+                  <img src={icon_material} alt="styledComponents" />
                   <h4>MaterialUi</h4>
                 </div>
               </div>
