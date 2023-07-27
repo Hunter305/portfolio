@@ -9,6 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+import procart from "../img/procart.png";
 
 const Projects = () => {
   return (
@@ -56,7 +57,7 @@ const Projects = () => {
               <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
                   sx={{ height: 170 }}
-                  image="src/img/procart.png"
+                  image={procart}
                   title="procart"
                 />
                 <CardContent>
@@ -65,12 +66,12 @@ const Projects = () => {
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
                     Procart is e-commerce website built using MERN stack. <br />
-                    Demo:
-                    <ul style={{ marginTop: "0px" }}>
-                      <li>email:admin@email.com (Admin),password: 1234</li>
-                      <li>email:avinash@email.com (Customer),password: 1234</li>
-                    </ul>
                   </Typography>
+                  Demo:
+                  <ul style={{ marginTop: "0px" }}>
+                    <li>email:admin@email.com (Admin),password: 1234</li>
+                    <li>email:avinash@email.com (Customer),password: 1234</li>
+                  </ul>
                 </CardContent>
                 <CardActions>
                   <Button

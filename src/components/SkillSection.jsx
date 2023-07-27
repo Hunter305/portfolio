@@ -11,7 +11,22 @@ import {
   icon_react,
   icon_redux,
 } from "../images.js";
-
+import {
+  icon_nodejs,
+  icon_express,
+  icon_mongodb,
+  icon_mysql,
+  icon_python,
+} from "../backendImages.js";
+import {
+  icon_awsec2,
+  icon_git,
+  icon_github,
+  icon_inkscape,
+  icon_numpy,
+  icon_vscode,
+  linux,
+} from "../misimages.js";
 const SkillSection = () => {
   return (
     <div style={{ background: "#ffd72e" }} id="Skills">
@@ -80,35 +95,35 @@ const SkillSection = () => {
             <div className={styles.card} style={{ background: "#64DAEE" }}>
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_nodejs.svg" alt="nodejs" />
+                  <img src={icon_nodejs} alt="nodejs" />
                   <h4>NodeJs</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_express.svg" alt="express" />
+                  <img src={icon_express} alt="express" />
                   <h4>Express</h4>
                 </div>
               </div>
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_javascript.svg" alt="javascript" />
+                  <img src={icon_javascript} alt="javascript" />
                   <h4>JavaScript</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_python.svg" alt="python" />
+                  <img src={icon_python} alt="python" />
                   <h4>Python</h4>
                 </div>
               </div>
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_mongodb.svg" alt="mongodb" />
+                  <img src={icon_mongodb} alt="mongodb" />
                   <h4>MongoDB</h4>
                 </div>
                 <div className={styles.item}>
-                  <img src="src/img/icon_mysql.svg" alt="mongodb" />
+                  <img src={icon_mysql} alt="mongodb" />
                   <h4>Mysql</h4>
                 </div>
               </div>
@@ -120,43 +135,43 @@ const SkillSection = () => {
             <div className={styles.card} style={{ background: "#64DAEE" }}>
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_git.svg" alt="git" />
+                  <img src={icon_git} alt="git" />
                   <h4>Git</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_github.svg" alt="github" />
+                  <img src={icon_github} alt="github" />
                   <h4>GitHub</h4>
                 </div>
               </div>
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_vscode.svg" alt="VsCode" />
+                  <img src={icon_vscode} alt="VsCode" />
                   <h4>VScode</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_numpy.svg" alt="numpy" />
+                  <img src={icon_numpy} alt="numpy" />
                   <h4>Numpy</h4>
                 </div>
               </div>
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_awsec2.svg" alt="pandas" />
-                  <h4>aws ec2</h4>
+                  <img src={icon_awsec2} alt="pandas" />
+                  <h4>aws ec3</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_inkscape.svg" alt="inkscape" />
+                  <img src={icon_inkscape} alt="inkscape" />
                   <h4>InkScape</h4>
                 </div>
               </div>
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_linux.svg" alt="linux" />
+                  <img src={linux} alt="linux" />
                   <h4>Linux</h4>
                 </div>
               </div>
