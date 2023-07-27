@@ -19,6 +19,7 @@ const Footer = () => {
               href="https://github.com/Hunter305"
               alt="github"
               style={{ textDecoration: "none", color: "#000" }}
+              target="_blank"
             >
               <GitHub className="footerFont" fontSize="large" />
               <h4 style={{ margin: "0" }}>github</h4>
@@ -29,6 +30,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/avinash-s-9b56b9178/"
               alt="linkedin"
               style={{ textDecoration: "none", color: "#0A66C2" }}
+              target="_blank"
             >
               <LinkedIn className="footerFont" fontSize="large" />
               <h4 style={{ margin: "0" }}>LinkedIn</h4>
@@ -39,6 +41,7 @@ const Footer = () => {
               href="https://drive.google.com/file/d/1VlXThf9jgeNETEPyfw9EetpsHjz0wfih/view?usp=drive_link"
               alt="Resume"
               style={{ textDecoration: "none", color: "#64DAEE" }}
+              target="_blank"
             >
               <Article className="footerFont" fontSize="large" />
               <h4 style={{ margin: "0" }}>Resume</h4>
