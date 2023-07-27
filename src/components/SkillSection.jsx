@@ -125,25 +125,25 @@ const SkillSection = () => {
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_firebase.svg" alt="firebase" />
-                  <h4>Firebase</h4>
+                  <img src="src/img/icon_vscode.svg" alt="VsCode" />
+                  <h4>VScode</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_webpack.svg" alt="webpack" />
-                  <h4>Webpack</h4>
+                  <img src="src/img/icon_numpy.svg" alt="numpy" />
+                  <h4>Numpy</h4>
                 </div>
               </div>
 
               <div className={styles.row}>
                 <div className={styles.item}>
-                  <img src="src/img/icon_figma.svg" alt="figma" />
-                  <h4>Figma</h4>
+                  <img src="src/img/icon_awsec2.svg" alt="pandas" />
+                  <h4>aws ec2</h4>
                 </div>
 
                 <div className={styles.item}>
-                  <img src="src/img/icon_illustrator.svg" alt="illustrator" />
-                  <h4>Adobe Illustrator</h4>
+                  <img src="src/img/icon_inkscape.svg" alt="inkscape" />
+                  <h4>InkScape</h4>
                 </div>
               </div>
 
