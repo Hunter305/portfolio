@@ -45,8 +45,12 @@ const About = () => {
                 <br />
                 <p>
                   {"{"}
-                  <br /> <span style={{ paddingLeft: "10px" }}>about</span>{" "}
-                  <span style={{ paddingLeft: "10px" }}>:</span> [ <br />]
+                  <br /> <span style={{ paddingLeft: "10px" }}>name</span>
+                  <span style={{ paddingLeft: "10px" }}>:</span> Avinash S<br />
+                  <span style={{ paddingLeft: "10px" }}>role</span>
+                  <span style={{ paddingLeft: "10px" }}>:</span> Developer
+                  <br />
+                  {"}"}
                 </p>
               </CardContent>
             </Card>
