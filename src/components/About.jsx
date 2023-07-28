@@ -28,11 +28,12 @@ const About = () => {
               </Typography>
             </ThemeProvider>
             <p>
-              As a frontend developer, my expertise lies in creating seamless
-              and intuitive user experiences. I specialize in using cutting-edge
-              technologies to produce high-quality web applications.
-              Specifically, I have vast knowledge of ReactJS and NodeJS, which
-              allow me to build complex and dynamic applications with ease.
+              As a Fullstack Web developer, my expertise lies in creating
+              seamless and intuitive user experiences. I specialize in using
+              cutting-edge technologies to produce high-quality web
+              applications. Specifically, I have vast knowledge of ReactJS and
+              NodeJS, which allow me to build complex and dynamic applications
+              with ease.
             </p>
           </Grid>
           <Grid item xs={12} md={6}>
