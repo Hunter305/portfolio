@@ -121,7 +121,7 @@ const Projects = () => {
           </h4>
           <Grid container spacing={4}>
             <Grid item xs={12} md={6}>
-              <Card sx={{ maxWidth: 345 }}>
+              <Card sx={{ maxWidth: 345, marginBottom: "20px" }}>
                 <CardMedia
                   sx={{ height: 170 }}
                   image={urls}
