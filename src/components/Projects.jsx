@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import procart from "../img/procart.png";
+import urls from "../img/urls.png";
 
 const Projects = () => {
   return (
@@ -114,9 +115,87 @@ const Projects = () => {
           </Grid>
         </Grid>
         {/* this one after creating a new project need to un comment */}
-        {/* <Grid item xs={12}>
-          <p>2nd</p>
-        </Grid> */}
+        <Grid item xs={12}>
+          <h4 style={{ marginBottom: "20px", marginTop: "40px" }}>
+            Url Shortner
+          </h4>
+          <Grid container spacing={4}>
+            <Grid item xs={12} md={6}>
+              <Card sx={{ maxWidth: 345 }}>
+                <CardMedia
+                  sx={{ height: 170 }}
+                  image={urls}
+                  title="url shortner"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    Url Shortner
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Shorten your url using the webapp built using MERN stack.{" "}
+                    <br />
+                  </Typography>
+                  Demo:
+                  <ul style={{ marginTop: "0px" }}>
+                    <li>email:test@email.com, password: 1234</li>
+                  </ul>
+                </CardContent>
+                <CardActions>
+                  <Button
+                    variant="contained"
+                    size="small"
+                    sx={{
+                      backgroundColor: "#69CF95",
+                      color: "#000",
+                      "&:hover": { backgroundColor: "#69CF95" },
+                    }}
+                  >
+                    <a
+                      href="https://delightful-douhua-e5a8b9.netlify.app/"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      Launch app
+                    </a>
+                  </Button>
+                  <Button
+                    variant="contained"
+                    size="small"
+                    sx={{
+                      backgroundColor: "#69CF95",
+                      color: "#000",
+                      "&:hover": { backgroundColor: "#69CF95" },
+                    }}
+                  >
+                    <a
+                      href="https://github.com/Hunter305/url_short_frontend/"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      Code
+                    </a>
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+            <Grid item xs={12} md={6} sx={{ border: "solid" }}>
+              <p>
+                URL Shortener is an innovative web application built using the
+                MERN stack (MongoDB, Express.js, React, Node.js) that simplifies
+                long URLs into short, shareable links. As a passionate web
+                developer, I conceptualized and developed this project to
+                enhance user experience and make link sharing more convenient.
+              </p>
+              <p>
+                URL Shortener showcases my skills in full-stack web development,
+                demonstrating my ability to create practical, user-centric
+                applications using cutting-edge technologies. It exemplifies my
+                commitment to delivering high-quality web solutions to
+                real-world challenges.
+              </p>
+            </Grid>
+          </Grid>
+        </Grid>
       </Grid>
     </Container>
   );
