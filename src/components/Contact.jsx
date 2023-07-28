@@ -4,7 +4,14 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div style={{ padding: "70px 0", textAlign: "center" }} id="Contact">
+    <div
+      style={{
+        padding: "70px 0",
+        textAlign: "center",
+        backgroundColor: "#ffd72e",
+      }}
+      id="Contact"
+    >
       <Container maxWidth="md">
         <h2 style={{ marginBottom: "0px" }}>Get in touch</h2>
         <h4 style={{ marginTop: "0px" }}>If you wish to collaborate</h4>

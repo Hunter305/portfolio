@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div
       style={{
-        backgroundColor: "#ffd72e",
+        backgroundColor: "#64DAEE",
         paddingTop: "50px",
         paddingBottom: "20px",
       }}
@@ -40,7 +40,7 @@ const Footer = () => {
             <a
               href="https://drive.google.com/file/d/1VlXThf9jgeNETEPyfw9EetpsHjz0wfih/view?usp=drive_link"
               alt="Resume"
-              style={{ textDecoration: "none", color: "#64DAEE" }}
+              style={{ textDecoration: "none", color: "#fff" }}
               target="_blank"
             >
               <Article className="footerFont" fontSize="large" />
