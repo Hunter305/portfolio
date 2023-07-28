@@ -21,9 +21,10 @@ import { Menu } from "@mui/icons-material";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
-const navItems = ["About", "Skills", "Project", "Contact"];
+const navItems = ["About", "Skills", "Project", "Contact", "Experience"];
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -124,6 +125,14 @@ const Navbar = (props) => {
                   </Button>
                 </AnchorLink>
               ))}
+              <a
+                href={
+                  "https://drive.google.com/file/d/1VlXThf9jgeNETEPyfw9EetpsHjz0wfih/view?usp=drive_link"
+                }
+                target="_blank"
+              >
+                <Button sx={{ color: "#000" }}>Resume</Button>
+              </a>
             </Box>
           </Toolbar>
         </AppBar>

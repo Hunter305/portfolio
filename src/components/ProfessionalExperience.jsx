@@ -10,6 +10,7 @@ const ProfessionalExperience = () => {
         paddingTop: "20px",
         paddingBottom: "50px",
       }}
+      id="Experience"
     >
       <Container>
         <h2 className="title">
