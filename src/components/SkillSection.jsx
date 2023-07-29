@@ -160,7 +160,7 @@ const SkillSection = () => {
               <div className={styles.row}>
                 <div className={styles.item}>
                   <img src={icon_awsec2} alt="pandas" />
-                  <h4>aws ec3</h4>
+                  <h4>aws ec2</h4>
                 </div>
 
                 <div className={styles.item}>
