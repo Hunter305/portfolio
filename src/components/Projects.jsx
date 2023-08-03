@@ -10,9 +10,10 @@ import {
 } from "@mui/material";
 import React from "react";
 import procart from "../img/procart.png";
-import urls from "../img/urls.png";
+
 import mesmer from "../img/mesmer.png";
 import tracky from "../img/tracky.png";
+import admin from "../img/admin.png";
 
 const Projects = () => {
   return (
@@ -267,18 +268,20 @@ const Projects = () => {
             </Grid>
           </Grid>
         </Grid>
-        {/* <Grid item xs={12} sx={{ marginBottom: "50px" }}>
-          <h4 style={{ marginBottom: "20px", marginTop: "40px" }}>Mesmer</h4>
+        <Grid item xs={12} sx={{ marginBottom: "50px" }}>
+          <h4 style={{ marginBottom: "20px", marginTop: "40px" }}>
+            Admin Dashboard
+          </h4>
           <Grid container spacing={4}>
             <Grid item xs={12} md={6}>
               <Card sx={{ maxWidth: 345, marginBottom: "20px" }}>
-                <CardMedia sx={{ height: 170 }} image={mesmer} title="mesmer" />
+                <CardMedia sx={{ height: 170 }} image={admin} title="admin" />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Mesmer
+                    Admin Dashboard
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Just get mesmerized in the music
+                    Visualize your data
                     <br />
                   </Typography>
                 </CardContent>
@@ -293,7 +296,7 @@ const Projects = () => {
                     }}
                   >
                     <a
-                      href="https://mesmermusic.netlify.app/"
+                      href="https://dashboard-avinashs.netlify.app/"
                       target="_blank"
                       style={{ textDecoration: "none", color: "black" }}
                     >
@@ -310,7 +313,7 @@ const Projects = () => {
                     }}
                   >
                     <a
-                      href="https://github.com/Hunter305/Mesmer"
+                      href="https://github.com/Hunter305/admin_dashboard"
                       target="_blank"
                       style={{ textDecoration: "none", color: "black" }}
                     >
@@ -322,23 +325,23 @@ const Projects = () => {
             </Grid>
             <Grid item xs={12} md={6} sx={{ border: "solid" }}>
               <p>
-                Mesmer is an engaging and immersive music player web application
-                built using React and powered by the Shazam API. As a passionate
-                web developer and music enthusiast, I conceptualized and created
-                Mesmer to deliver a captivating and seamless music listening
-                experience to users.
+                AdminDash is a dynamic and visually appealing frontend admin
+                dashboard web application, thoughtfully developed using React
+                and powered by Chart.js. As a dedicated web developer, I
+                conceptualized and crafted AdminDash to provide businesses with
+                a comprehensive tool for monitoring key performance indicators
+                and making data-driven decisions efficiently.
               </p>
               <p>
-                Mesmer exemplifies my proficiency in leveraging cutting-edge
-                technologies like React and integrating external APIs to create
-                interactive and feature-rich web applications. As a music player
-                that provides a captivating and personalized listening
-                experience, Mesmer is a testament to my passion for delivering
-                innovative solutions through web development.
+                AdminDash is a testament to my expertise in frontend development
+                using React and my dedication to delivering high-quality web
+                applications. Its data visualization capabilities and intuitive
+                interface make it an indispensable tool for businesses seeking
+                to harness the power of data in decision-making.
               </p>
             </Grid>
           </Grid>
-        </Grid> */}
+        </Grid>
       </Grid>
     </Container>
   );
