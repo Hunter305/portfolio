@@ -39,14 +39,6 @@ const ProfessionalExperience = () => {
             understand their reporting and data analysis needs. Conducted
             in-depth requirement gathering sessions to capture essential
             business KPIs (Key Performance Indicators) and data sources.
-            <li className="responsibilities">
-              Design and Development of BI/BW Solutions:{" "}
-            </li>
-            Utilizing my expertise in SAP Business Intelligence and Business
-            Warehouse (BI/BW) modules, I contributed to the design and
-            development of data models, data extraction, transformation, and
-            loading (ETL) processes. I ensured the data was structured optimally
-            for reporting and analytical purposes.
             <li className="responsibilities">Performance Optimization:</li>
             Proactively identified performance bottlenecks within the BI/BW
             system and implemented optimization techniques to enhance query
