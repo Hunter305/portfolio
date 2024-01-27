@@ -27,7 +27,7 @@ const Footer = () => {
           </Grid>
           <Grid item md={4} xs={12}>
             <a
-              href="https://www.linkedin.com/in/avinash-s-9b56b9178/"
+              href="https://www.linkedin.com/in/avinash-s-dev/"
               alt="linkedin"
               style={{ textDecoration: "none", color: "#0A66C2" }}
               target="_blank"
@@ -38,7 +38,7 @@ const Footer = () => {
           </Grid>
           <Grid item md={4} xs={12}>
             <a
-              href="https://drive.google.com/file/d/1VlXThf9jgeNETEPyfw9EetpsHjz0wfih/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1JxaI-eP8uw6_7aYaE6oyMwFUrWFwiDRE/view?usp=drive_link"
               alt="Resume"
               style={{ textDecoration: "none", color: "#fff" }}
               target="_blank"

@@ -127,7 +127,7 @@ const Navbar = (props) => {
               ))}
               <a
                 href={
-                  "https://drive.google.com/file/d/1VlXThf9jgeNETEPyfw9EetpsHjz0wfih/view?usp=drive_link"
+                  "https://drive.google.com/file/d/1JxaI-eP8uw6_7aYaE6oyMwFUrWFwiDRE/view?usp=drive_link"
                 }
                 target="_blank"
               >
